@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pickleball-tournament/static/css/main.f94954fc.css",
+    "main.js": "/pickleball-tournament/static/js/main.4c08f716.js",
+    "index.html": "/pickleball-tournament/index.html",
+    "main.f94954fc.css.map": "/pickleball-tournament/static/css/main.f94954fc.css.map",
+    "main.4c08f716.js.map": "/pickleball-tournament/static/js/main.4c08f716.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f94954fc.css",
+    "static/js/main.4c08f716.js"
+  ]
+}
