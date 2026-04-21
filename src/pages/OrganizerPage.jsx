@@ -65,7 +65,7 @@ export default function OrganizerPage() {
   if (loading || authLoading) return <div className="loading-page"><div className="spinner" /><p>Loading tournament…</p></div>;
   if (!tournament) return <div className="loading-page"><p>Tournament not found.</p></div>;
 
-  const tournamentLink = `${window.location.origin}/t/${tournament?.slug}`;
+  const tournamentLink = `${window.location.origin}/pickleball-tournament/#/t/${tournament?.slug}`;
   const fmt = tournament ? getFormatById(tournament.format) : null;
   const isTeamFormat = fmt?.requiresTeamReg || ['mixed_doubles_random', 'open_doubles_random'].includes(tournament?.format);
   const isElimination = ['single_elimination', 'double_elimination'].includes(tournament?.format);
